@@ -62,7 +62,9 @@ Final items
 
 In more abstract terms, we can think of lists as a collection of items, that may or may not be ordered, that all relate to each other in some way (the reason for having the list).
 
-In programming, we often have a collection of things we need to work with in some way. Some things we do with collections, aka lists.
+In programming, we often have a collection of things we need to work with in some way. 
+
+Sometimes we call them `collections` and sometimes we call them `lists`, but the essence is the same.
 
 ## Examples
 
@@ -105,9 +107,40 @@ The computer considers Hello, World! to be a list of characters where each chara
 Try out the Do Now
 https://snap.berkeley.edu/snapsource/snap.html#present:Username=whuangpha&ProjectName=Starter%20project%20for%20text%20operators%20practice
 
+#### Marnee's exmaples
+
+https://snap.berkeley.edu/snapsource/snap.html#present:Username=marnee&ProjectName=text%20operators%20practice
+
+> Remember to SAVE AS a new one to your account
+
 
 ## You talking to me?
 
 https://tealsk12.gitbook.io/intro-cs/unit_4/lesson_42/lab_42
 
 >  create a sentence generator using lists
+
+
+## Terms to know
+
+| Word | Definition |
+| ---- | ---------- |
+| Programming List | Called an 'array' in most programming languages, this holds lots of values.|
+| Lists Block | A block which controls a list. |
+| Operator Block | A block that performs math functions and string handling. |
+| List Element | A part of a list. |
+| Traverse | Go through or travel across an item/list. |
+| Transform | Create a new list based on the values of the old list. |
+| Sequential Search Algorithm | A method for finding a target value within a list. It sequentially checks each element of the list for the target value until a match is found or until all the elements have been searched.
+| Index Variable | Keeps track of where you currently are in a list. |
+| Join Block | Links two values together and reports the result. |
+| Contains Block | Checks an operator block for a particular variable. |
+
+## Lists in Scratch!
+
+> But Scratch’s lists are not first class.  You create one using the “Make a list” button, which requires that you give the list a name.  You can’t put the list into a variable, into an input slot of a block, or into a list item—you can’t have lists of lists.  None of the Scratch reporters reports a list value.(You can use a reduction of the list into a text string as input to other blocks, but this loses the list structure; the input is just a text string, not a data aggregate.)
+
+## More about strings
+
+https://en.scratch-wiki.info/wiki/String
+
