@@ -13,6 +13,14 @@ Public tweets only.
 
 In one paragraph or less, what does this thing do? What's it good for?
 
+### Examples
+
+Here are some examples I found on the Internet.
+
+> We are a startup that puts technology at the service of the environment.
+> A healthy snack food category disrupter, Hummus 2.0
+> Hyper-localized aquaponic food production
+
 ## Define
 
 List the features and use case scenarios.
