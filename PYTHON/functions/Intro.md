@@ -1,5 +1,7 @@
 # Intro to Functions
 
+https://tealsk12.gitbook.io/intro-cs-2/unit_3/lesson
+
 Functions let you define chunks of code that you can re-use in your code.
 
 Functions should do one thing and one thing only. This is to help with understanding your code -- being able to reason about your program. Keep functions simple and short.
@@ -85,6 +87,8 @@ my_list.append('e') # what does this do?
 
 We can also import new functions. Like `random`. The built-in random functions let you create random numbers.
 
+https://docs.python.org/2/library/random.html
+
 ```python
 import random
 
@@ -92,7 +96,7 @@ random_int = random.randint(1,10)
 
 ```
 
-`import` makes it possible to reference the `random` functions in your code. It is not automatically available.
+`import` makes it possible to reference the `random` functions in your code. It is not automatically available. `random` is a pthon `library` of code that does a lot of `random` things.
 
 `randint` creates a random number between 1 and 10 including 1 and 10
 
