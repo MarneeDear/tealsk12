@@ -4,6 +4,8 @@ Functions let you define chunks of code that you can re-use in your code.
 
 Functions should do one thing and one thing only. This is to help with understanding your code -- being able to reason about your program. Keep functions simple and short.
 
+When you define a function you are defining a `contract` with the user. This defines how the function is should be used.
+
 ## Function syntax
 
 With this syntax we can define our own functions:
@@ -59,7 +61,9 @@ my_new_list = my_function_with_parameters(nums_list, num)
 print(my_new_list) # what will this be?
 ```
 
-Using a function is called called `calling` a function. In the above example I `called` the function my_function_with_parameters passing it two arguments `num_list` and `num`
+Using a function is called called `calling` a function. In the above example I `called` the function my_function_with_parameters passing it two arguments `num_list` and `num`.
+
+The `contract` of the function is that it take two parameters: a list and an integer, and the function adds that integer to the list and returns a new list.
 
 ## Using built-in functions
 
@@ -108,4 +112,4 @@ This is the range of numbers in which randint will create a new number
 
 `built-in`: Python functions like `len`, `append`, `random.randint`
 
-
+`contract`: how a function is used. What parameters it takes, the types of those parameters, and what the function returns.
