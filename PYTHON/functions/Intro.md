@@ -117,3 +117,14 @@ This is the range of numbers in which randint will create a new number
 `built-in`: Python functions like `len`, `append`, `random.randint`
 
 `contract`: how a function is used. What parameters it takes, the types of those parameters, and what the function returns.
+
+## Resources
+
+Teals Gitbook -- Intro to Functions
+https://tealsk12.gitbook.io/intro-cs-2/unit_3/lesson
+
+Parameterized Functions -- Python for Beginners
+https://www.youtube.com/watch?v=sKW-zdYZNX4
+
+Python Docs -- Random
+https://docs.python.org/2/library/random.html
