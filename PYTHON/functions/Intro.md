@@ -26,7 +26,7 @@ Functions can create new values and then them. We do this with the `return` keyw
 
 ```python
 def my_function():
-    # my code might do somehting to create a list
+    # my code might do something to create a list
     my_list = ['a', 'b', 'c']
     return my_list
 ```
@@ -66,6 +66,17 @@ print(my_new_list) # what will this be?
 Using a function is called called `calling` a function. In the above example I `called` the function my_function_with_parameters passing it two arguments `num_list` and `num`.
 
 The `contract` of the function is that it take two parameters: a list and an integer, and the function adds that integer to the list and returns a new list.
+
+The order of the parameters matters. You have to pass in your values to a function in the same order in which they appear in the parameters list.
+
+You can also call a function using `named notation`. It looks like this:
+
+```python
+my_new_list = my_function_with_parameters(my_list=nums_list, my_integer=num)
+```
+
+See more here:
+https://treyhunner.com/2018/04/keyword-arguments-in-python/
 
 ## Using built-in functions
 
@@ -128,3 +139,6 @@ https://www.youtube.com/watch?v=sKW-zdYZNX4
 
 Python Docs -- Random
 https://docs.python.org/2/library/random.html
+
+Python functions -- parameters and arguments
+https://treyhunner.com/2018/04/keyword-arguments-in-python/
